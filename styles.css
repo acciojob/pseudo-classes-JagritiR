@@ -5,13 +5,13 @@ body {
 }
 
 /* select the first paragraph element by using :first-child pseudo class */
-p:first-child {
+p:first-para-background {
   background-colour: black;
   color: white;
 }
 
 /* select the last paragraph element by using :last-child pseudo class */
-p:last-child {
+p:last-para-color {
   color: red;
 }
 
