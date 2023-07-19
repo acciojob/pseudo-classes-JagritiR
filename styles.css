@@ -4,23 +4,19 @@ body {
   background-color: #87ceeb;
 }
 
-/* select the first paragraph element by using :first-child pseudo class */
 p:first-para-background {
   background-colour: black;
   color: white;
 }
 
-/* select the last paragraph element by using :last-child pseudo class */
 p:last-para-color {
   color: red;
 }
 
-/* select the first list item by using :first-child pseudo class */
 li:first-child {
   background-color: white;
 }
 
-/* select the second list item by using :nth-child(2) pseudo class */
 li:nth-child(2) {
   background-color: slategray;
 }
@@ -31,7 +27,6 @@ li:nth-child(4) {
   background-color: slategray;
 }
 
-/* select the third list item by using :last-child pseudo class */
 li:last-child {
   background-color: White;
 }
