@@ -1,26 +1,21 @@
 /*  your css code here. If applicable */
 /* select the body element by its tag name */
-/* Set the background color of the entire page to light blue */
 body {
   background-color: rgb(135, 206, 235);
 }
 
-/* Set a gray background color for the list items */
 li {
   background-color: gray;
 }
 
-/* Set the width of the list items to 50% */
 li {
   width: 50%;
 }
 
-/* Add 10 pixels of padding to each list item */
 li {
   padding: 10px;
 }
 
-/* Alternate the background color of the list items, so every other item has a white background */
 li:nth-child(even) {
   background-color: white;
 }
