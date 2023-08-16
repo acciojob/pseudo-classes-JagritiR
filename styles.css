@@ -1,22 +1,62 @@
-/*  your css code here. If applicable */
-/* select the body element by its tag name */
-body {
-  background-color: #87ceeb;
+/* styles.css */
+
+/* Selects the root element of the document */
+:root {
+  /* Sets its background color */
+  background-color: rgb(135, 206, 235);
 }
 
-li {
+/* Selects all paragraphs inside article */
+article p {
+  /* Sets their margin */
+  margin: 10px;
+}
+
+/* Selects only first paragraph inside article */
+article p:first-child {
+  /* Sets its text color */
+  color: white;
+  /* Sets its background color */
+  background-color: black;
+}
+
+/* Selects only second paragraph inside article */
+article p:nth-child(2) {
+  /* Sets its text color */
+  color: black;
+}
+
+/* Selects only last paragraph inside article */
+article p:last-child {
+  /* Sets its text color */
+  color: red;
+}
+
+/* Selects all list items inside unordered list */
+ul li {
+  /* Sets their background color */
   background-color: gray;
-}
-
-li {
+  /* Sets their width */
   width: 50%;
-}
-
-li {
+  /* Sets their padding */
   padding: 10px;
 }
 
-li:nth-child(even) {
+/* Selects only odd list items inside unordered list */
+ul li:nth-child(odd) {
+  /* Sets their background color */
   background-color: white;
 }
 
+/* Selects only first and last list items inside unordered list */
+ul li:first-child,
+ul li:last-child {
+  /* Sets their font size */
+  font-size: 22px;
+}
+
+/* Selects only third-to-last list item inside unordered list */
+ul li:nth-last-child(3) {
+  /* Sets its background color */
+  background-color: pink;
+}
